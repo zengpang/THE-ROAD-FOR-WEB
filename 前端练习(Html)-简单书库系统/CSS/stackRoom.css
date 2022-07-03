@@ -1,0 +1,24 @@
+nav{
+    background-color: rgb(94, 90, 90);
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+}
+nav h1{
+    color: white;
+    position: relative;
+   
+}
+header{
+    position: absolute;
+    top: 6%;
+    width: 100%;
+    text-align: center;
+}
+body{
+    display: flex;
+    margin: 0px;
+}
+
