@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input练习</title>
+</head>
+
+<body>
+    <form action="register.html" method="get">
+        <label  for="username">用户名</label>
+        <input type="text" name="username" id="username" required placeholder="用户名"/><br/>
+        <label  for="userpassword">密码</label>
+        <input type="password" name="userpassword" id="userpassword" required placeholder="密码"/><br/>
+        <dl>
+            <dt>兴趣爱好</dt>
+            <dd><input type="checkbox" name="interest" value="basketball" >篮球</input></dd>
+            <dd><input type="checkbox" name="interest" value="computer">计算机</input></dd>
+            <dd><input type="checkbox" name="interest" value="football">足球</input></dd>
+            <dd><input type="checkbox" name="interest" value="badminton">羽毛球</input></dd>
+            <dd><input type="checkbox" name="interest" value="pingpong">乒乓球</input></dd>
+            <dd><input type="checkbox" name="interest" value="swim">游泳</input></dd>
+            <dt>性别</dt>
+            <dd><input type="radio" name="sex" value="male">男</input></dd>
+            <dd><input type="radio" name="sex" value="female">女</input></dd>
+            <dd><input type="radio" name="sex" value="sexunknown">未知</input></dd>
+        </dl>
+      
+        <input type="hidden" name="csrf" value="校验码" /><br/>
+        <input type="button" name="btn" value="点击按钮"><br/>
+        <input type="email" name="useremail"/><br/>
+        <input type="file" name="userfile"/><br/>
+        <input type="number" name="usernumber"/><br/>
+        <input type="tel" name="usertel"/><br/>
+        <input type="submit" name="usersub"/><br/>
+
+       
+    </form>
+</body>
+
+</html>
