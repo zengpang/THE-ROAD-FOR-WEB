@@ -8,3 +8,55 @@ ul li{
 {
     background-color: aqua;
 }
+
+.text-fcdiv :first-child{
+    background-color: darkcyan;
+}
+.text-fcdiv :nth-child(2n)
+{
+    background-color: aquamarine;
+}
+.text-fcdiv :last-child
+{
+    background-color: rgb(248, 138, 3);
+}
+
+
+.text-ftdiv :first-of-type{
+    background-color: darkcyan;
+}
+.text-ftdiv :nth-of-type(2n)
+{
+    background-color: aquamarine;
+}
+.text-ftdiv :last-of-type
+{
+    background-color: rgb(248, 138, 3);
+}
+input:disabled{
+    background-color: darkmagenta;
+}
+.checkedTest:checked{
+   font-size: 32px;
+   width: 100px;
+   height: 100px;
+   -webkit-appearance: none;
+   background-color: darkcyan;
+
+}
+.inputTest:focus{
+   background-color: bisque;
+}
+.linkStyle:link{
+   color: chartreuse;
+}
+.linkStyle:visited{
+   color: crimson;
+}
+.linkStyle:hover{
+  color: aqua;
+}
+.linkStyle:active{
+  color: cornflowerblue;
+}
+
