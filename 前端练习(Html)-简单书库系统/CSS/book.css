@@ -1,0 +1,29 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  
+}
+main{
+  margin: 0 auto;
+  width: 50%;
+
+}
+main aside {
+    font-size: 25px;
+}
+main aside::first-letter{
+    font-size: 32px;
+    color: red;
+}
+main aside::first-line{
+    color: aqua;
+}
+main aside::selection{
+    color: yellow;
+    background-color: cadetblue;
+}

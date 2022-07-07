@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+     <link rel="stylesheet" type="text/css" href="CSS/book.css" />
     <title>书本</title>
 </head>
 <body>
-    
+    <nav>
+        <h1>序章</h1>
+    </nav>
+    <main>
+        <aside>
+            When you create a canvas, the browser has to decide where it should exist. It can store the data for the canvas in main memory, invoking functions running on the CPU to render to it. Or it can create the canvas on the GPU, invoking GPU commands to draw to it. I use the term CPU canvas for the former and GPU canvas for the latter. Unlike a CPU canvas, a GPU canvas is hardware accelerated. This will generally result in better performance, but not always. As a result, the browser might include heuristics for deciding which approach to adopt. It may even change approach after the initial decision in response to how the canvas is being used. This file is an example of the heuristics used in an older version of the Blink browser engine in Chrome.
+One simple heuristic is the size of the canvas: a very small or very large canvas might be better as a CPU canvas. Here is a discussion in the Blink developers group about how canvas size matters. The browser might also choose to create any new canvases as CPU canvases if there are already many GPU canvases.
+        </aside>
+    </main>
 </body>
 </html>
