@@ -1,3 +1,10 @@
-.box.detail{
+.box .detail{
     background-color: blue;
+}
+ul li{
+  background-color: aquamarine;
+}
+[type="text"]
+{
+    background-color: aqua;
 }
