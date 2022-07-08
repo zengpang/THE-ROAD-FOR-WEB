@@ -8,6 +8,12 @@ nav{
     text-align: center;
   
 }
+nav blockquote{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
 main{
   margin: 0 auto;
   width: 50%;
