@@ -1,0 +1,19 @@
+main .leftSildBar{
+    background-color: aqua;
+    float: left;
+    width: 15vw;
+    height: 30vw;
+ }
+ main .mainContent{
+    background-color: bisque;
+    margin-left: 15.5vw;
+    margin-right: 15.5vw;
+    width: auto;
+    height: 30vw;
+ }
+ main .rightSildBar{
+    background-color: cadetblue;
+    float: right;
+    width: 15vw;
+    height: 30vw;
+ }

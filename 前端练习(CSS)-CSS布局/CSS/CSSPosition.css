@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 8vw;
+    width: 100vw;
+    display: inline-block;
+    position: sticky;
+    top: 10px;
+    text-align: center;
+}
+
+nav div {
+    display: inline-block;
+    border: 2px solid red;
+    vertical-align: middle;
+    text-align: center;
+}
+
+nav>:nth-child(1) {
+    font-size: 24px;
+    width: 120px;
+    height: 70px;
+}
+
+nav>:nth-child(2) {
+    font-size: 24px;
+    width: 120px;
+    height: 100px;
+}
+
+nav>:nth-child(3) {
+    font-size: 24px;
+    width: 120px;
+    height: 200px;
+}
+
+nav div p {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+}
+nav div p::before{
+    display: inline-block;
+    content: "";
+    height: 100%;
+    vertical-align:  middle;
+}
+main ul li{
+    font-size: 30px;
+}
+.father {
+    width: 300px;
+    height: 300px;
+}
+
+.son {
+    height: 100%;
+    background: blue;
+    color: #fff;
+}
+
+.son::before {
+    display: inline-block;
+    content: "";
+    height: 100%;
+    vertical-align: middle;
+}
