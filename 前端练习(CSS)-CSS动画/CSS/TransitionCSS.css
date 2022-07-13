@@ -1,0 +1,30 @@
+#BlueBall{
+    background-color: rgba(43, 100, 233, 0.775);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+     position: relative; 
+    opacity: 1;
+    /* transition:opacity 1s; */
+    animation: ballTransition 20s;
+}
+#BlueBall:hover{
+    /* border-radius: 0;
+    opacity: 0.3; */
+    
+
+}
+@keyframes ballTransition{
+    0%{left:0;}
+    /* 50%{
+        left:800px;
+        background-color: rgb(67, 233, 180);
+      
+    } */
+    100%{
+         left: 1600px; 
+         background-color: rgb(141, 235, 101);
+        
+         border-radius: 0;
+        }
+}
