@@ -1,0 +1,19 @@
+/*相对布局*/
+.relativediv{
+   width: 100vw;
+   height: 10vw;
+   background-color: black;
+   position: relative;
+
+}
+/*绝对布局*/
+.absolutediv{
+  display: inline;
+
+  background-color:bisque;
+  position:absolute;
+  left: 0;
+  top:0;
+  right: 0;
+  bottom: 0;
+}
