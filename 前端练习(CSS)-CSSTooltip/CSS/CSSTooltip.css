@@ -1,0 +1,25 @@
+.tip p{
+  margin: 0px;
+  display: inline;
+}
+.tip:hover .tooltip{
+    display:block;
+}
+.tip .tooltip{
+   background-color: rgb(51, 50, 50);
+   width: 150px;
+   height: 50px;
+   margin-top: 4px;
+   color: azure;
+   position: relative;
+   border-radius: 5px;
+   border-top-left-radius:0px ;
+   display: none;
+}
+.tip .tooltip::before{
+    content:"";
+    position: absolute;
+    top:-13px;
+    border: 8px solid  rgba(51, 50, 50, 0);
+    border-bottom-color:rgba(51, 50, 50, 1);
+}

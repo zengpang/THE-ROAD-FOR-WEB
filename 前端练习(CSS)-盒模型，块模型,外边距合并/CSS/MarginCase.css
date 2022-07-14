@@ -1,0 +1,12 @@
+header{
+   background: red;
+   margin: 10px;
+}
+main{
+   background: blue;
+   margin: 20px;
+}
+footer{
+   background: green;
+   margin: 30px;
+}
