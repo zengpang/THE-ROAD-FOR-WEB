@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid;
+}
+.box1{
+    position: relative;
+    background: red;
+}
+.box2{
+    position: absolute;
+    left: 10px;
+    background: blue;
+}
+.box3{
+    position: absolute;
+    top:140px;
+    left: 60px;
+    background: yellow;
+}
+.box4{
+    position: relative;
+    background: pink;
+}
