@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+nav{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    
+}
+nav>p{
+    color: white;
+    font-size: 23px;
+    margin: 0;
+    display: inline-block;
+    
+}
+nav::after{
+    content: "";
+    line-height: 100px;
+   
+}
+main{
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+}
+main>table{
+   border: 1px solid black;
+   text-align: center;
+   justify-items: center;
+}
+main>table>thead{
+    border: 1px solid black;
+}
+main>table>thead th{
+    border: 1px solid black;
+}
+main>table tr td{
+    border: 1px solid black;
+}

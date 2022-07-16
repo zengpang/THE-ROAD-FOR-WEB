@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>两栏布局</title>
+</head>
+<style>
+    header,footer{
+        height: 50px;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    header{
+      background-color: bisque;
+    }
+    footer{
+        background-color: cornflowerblue;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    main >*{
+        height: 300px;
+    }
+    main >aside{
+        width: 150px;
+        background-color: brown;
+
+    }
+    main >div{
+        flex: 1 0;
+        background-color: rgb(42, 165, 73);
+    }
+    
+</style>
+
+<body>
+    <header>顶边栏</header>
+    <main>
+        <aside> 侧边栏 </aside>
+        <div class="mainPanel">
+            主栏
+        </div>
+    </main>
+    <footer>底边栏</footer>
+</body>
+
+</html>

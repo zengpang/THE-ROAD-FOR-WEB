@@ -1,0 +1,8 @@
+node 节点
+server 服务器
+listen 监听
+process 进程
+argument 参数
+console 控制台
+log 打印
+kernel 内核

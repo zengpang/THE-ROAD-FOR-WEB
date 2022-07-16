@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>三栏布局案例2</title>
+</head>
+<style>
+    .wrapper{
+        display: flex;
+        flex-flow: row wrap;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .wrapper >*{
+        width: 100%;
+
+    }
+    header{
+        background: pink;
+    }
+    main{
+        order: 2;
+        background: gray;
+        flex:  1 0;
+    }
+    .aside-1{
+       order: 1;
+       background: yellow;
+       width: 100px;
+    }
+    .aside-2{
+        order: 2;
+        background: blue;
+        width: 100px;
+
+    }
+    footer{
+        order: 4;
+        background: green;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <header>Header</header>
+        <main>
+            <p>你是怎么学前端的？
+                我的学习方法： 关键字学习法——搜索、模仿、批判、总结</p>
+                        <p>为什么要做前端？
+                程序员改变了过去三十年的世界，正在改变未来三十年的世界，我很想做程序员</p>
+        </main>
+        <aside class="aside-1">Aside 1</aside>
+        <aside class="aside-2">Aside 2</aside>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
