@@ -1,0 +1,157 @@
+Date : 2022-07-17 00:44:49
+Directory : h:\前端工程
+Total : 89 files,  53932 codes, 4282 comments, 24517 blanks, all 82731 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |          2 |     51,221 |      4,270 |     24,325 |     79,816 |
+| HTML       |         55 |      1,858 |          2 |        116 |      1,976 |
+| CSS        |         30 |        851 |         10 |         75 |        936 |
+| Markdown   |          1 |          1 |          0 |          1 |          2 |
+| XML        |          1 |          1 |          0 |          0 |          1 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                          | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                             |         89 |     53,932 |      4,282 |     24,517 |     82,731 |
+| ThreeJS实验                                                     |          3 |     51,266 |      4,270 |     24,328 |     79,864 |
+| 前端基础课程                                                        |          3 |        131 |          0 |          4 |        135 |
+| 前端基础课程\CSS                                                    |          1 |          5 |          0 |          0 |          5 |
+| 前端练习(CSS)-CSSTooltip                                          |          2 |         43 |          0 |          0 |         43 |
+| 前端练习(CSS)-CSSTooltip\CSS                                      |          1 |         25 |          0 |          0 |         25 |
+| 前端练习(CSS)-CSS列表，背景，表格样式                                       |          3 |        138 |          0 |         15 |        153 |
+| 前端练习(CSS)-CSS列表，背景，表格样式\CSS                                   |          1 |         51 |          0 |          3 |         54 |
+| 前端练习(CSS)-CSS动画                                               |          2 |         35 |          8 |          7 |         50 |
+| 前端练习(CSS)-CSS动画\CSS                                           |          1 |         19 |          8 |          4 |         31 |
+| 前端练习(CSS)-CSS定位                                               |          2 |         31 |          2 |          3 |         36 |
+| 前端练习(CSS)-CSS定位\CSS                                           |          1 |         15 |          2 |          2 |         19 |
+| 前端练习(CSS)-CSS布局                                               |          2 |        148 |          0 |         16 |        164 |
+| 前端练习(CSS)-CSS布局\CSS                                           |          1 |         63 |          0 |          9 |         72 |
+| 前端练习(CSS)-CSS文本样式练习                                           |          2 |         64 |          0 |          5 |         69 |
+| 前端练习(CSS)-CSS文本样式练习\CSS                                       |          1 |         37 |          0 |          5 |         42 |
+| 前端练习(CSS)-CSS模态框                                              |          2 |         63 |          0 |          1 |         64 |
+| 前端练习(CSS)-CSS模态框\CSS                                          |          1 |         39 |          0 |          1 |         40 |
+| 前端练习(CSS)-CSS浮动相关练习                                           |          6 |        153 |          0 |         23 |        176 |
+| 前端练习(CSS)-CSS浮动相关练习\CSS                                       |          3 |         82 |          0 |          4 |         86 |
+| 前端练习(CSS)-Google搜索框                                           |          4 |        107 |          0 |         13 |        120 |
+| 前端练习(CSS)-Google搜索框\CSS                                       |          2 |         79 |          0 |         11 |         90 |
+| 前端练习(CSS)-Google搜索框\Images                                    |          1 |          1 |          0 |          0 |          1 |
+| 前端练习(CSS)-Grid布局                                              |         13 |        446 |          0 |          9 |        455 |
+| 前端练习(CSS)-Grid布局\CSS                                          |          1 |         37 |          0 |          4 |         41 |
+| 前端练习(CSS)-flex布局                                              |          7 |        316 |          0 |         21 |        337 |
+| 前端练习(CSS)-flex布局\CSS                                          |          1 |         37 |          0 |          4 |         41 |
+| 前端练习(CSS)-层叠上下文                                               |          9 |        238 |          0 |         16 |        254 |
+| 前端练习(CSS)-层叠上下文\CSS                                           |          2 |         65 |          0 |          4 |         69 |
+| 前端练习(CSS)-盒模型，块模型,外边距合并                                       |         14 |        247 |          0 |         13 |        260 |
+| 前端练习(CSS)-盒模型，块模型,外边距合并\CSS                                   |          7 |        105 |          0 |          7 |        112 |
+| 前端练习(Html)-CSS选择器                                             |          2 |        116 |          0 |         10 |        126 |
+| 前端练习(Html)-CSS选择器\CSS                                         |          1 |         57 |          0 |          6 |         63 |
+| 前端练习(Html)-input标签与表单练习                                       |          4 |        100 |          2 |         14 |        116 |
+| 前端练习(Html)-input标签与表单练习\CSS                                   |          1 |          0 |          0 |          1 |          1 |
+| 前端练习(Html)-简单书库系统                                             |          4 |        215 |          0 |         15 |        230 |
+| 前端练习(Html)-简单书库系统\CSS                                         |          2 |        107 |          0 |          9 |        116 |
+| 前端练习(小功能)-抽奖系统                                                |          2 |         20 |          0 |          3 |         23 |
+| 前端练习(小功能)-抽奖系统\CSS                                            |          1 |          0 |          0 |          1 |          1 |
+| 前端练习基础(CSS)-Grid实现两栏布局                                        |          2 |         54 |          0 |          0 |         54 |
+| 前端练习基础(CSS)-Grid实现两栏布局\CSS                                    |          1 |         28 |          0 |          0 |         28 |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                      | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
+| h:\前端工程\Readme.md                                             | Markdown   |          1 |          0 |          1 |          2 |
+| h:\前端工程\ThreeJS实验\3D.js                                       | JavaScript |     23,623 |      3,080 |     17,535 |     44,238 |
+| h:\前端工程\ThreeJS实验\Three3D.js                                  | JavaScript |     27,598 |      1,190 |      6,790 |     35,578 |
+| h:\前端工程\ThreeJS实验\index.html                                  | HTML       |         45 |          0 |          3 |         48 |
+| h:\前端工程\前端基础课程\CSS\demo.css                                   | CSS        |          5 |          0 |          0 |          5 |
+| h:\前端工程\前端基础课程\demo.html                                      | HTML       |         16 |          0 |          2 |         18 |
+| h:\前端工程\前端基础课程\index.html                                     | HTML       |        110 |          0 |          2 |        112 |
+| h:\前端工程\前端练习(CSS)-CSSTooltip\CSS\CSSTooltip.css               | CSS        |         25 |          0 |          0 |         25 |
+| h:\前端工程\前端练习(CSS)-CSSTooltip\index.html                       | HTML       |         18 |          0 |          0 |         18 |
+| h:\前端工程\前端练习(CSS)-CSS列表，背景，表格样式\CSS\CSSTest.css               | CSS        |         51 |          0 |          3 |         54 |
+| h:\前端工程\前端练习(CSS)-CSS列表，背景，表格样式\imags.html                    | HTML       |         32 |          0 |          4 |         36 |
+| h:\前端工程\前端练习(CSS)-CSS列表，背景，表格样式\index.html                    | HTML       |         55 |          0 |          8 |         63 |
+| h:\前端工程\前端练习(CSS)-CSS动画\CSS\TransitionCSS.css                 | CSS        |         19 |          8 |          4 |         31 |
+| h:\前端工程\前端练习(CSS)-CSS动画\index.html                            | HTML       |         16 |          0 |          3 |         19 |
+| h:\前端工程\前端练习(CSS)-CSS定位\CSS\PostionCSS.css                    | CSS        |         15 |          2 |          2 |         19 |
+| h:\前端工程\前端练习(CSS)-CSS定位\index.html                            | HTML       |         16 |          0 |          1 |         17 |
+| h:\前端工程\前端练习(CSS)-CSS布局\CSS\CSSPosition.css                   | CSS        |         63 |          0 |          9 |         72 |
+| h:\前端工程\前端练习(CSS)-CSS布局\index.html                            | HTML       |         85 |          0 |          7 |         92 |
+| h:\前端工程\前端练习(CSS)-CSS文本样式练习\CSS\CSSTest.css                   | CSS        |         37 |          0 |          5 |         42 |
+| h:\前端工程\前端练习(CSS)-CSS文本样式练习\index.html                        | HTML       |         27 |          0 |          0 |         27 |
+| h:\前端工程\前端练习(CSS)-CSS模态框\CSS\CSSDialog.css                    | CSS        |         39 |          0 |          1 |         40 |
+| h:\前端工程\前端练习(CSS)-CSS模态框\index.html                           | HTML       |         24 |          0 |          0 |         24 |
+| h:\前端工程\前端练习(CSS)-CSS浮动相关练习\CSS\CSSFloat.css                  | CSS        |         51 |          0 |          2 |         53 |
+| h:\前端工程\前端练习(CSS)-CSS浮动相关练习\CSS\CSSSlidBarThree.css           | CSS        |         19 |          0 |          0 |         19 |
+| h:\前端工程\前端练习(CSS)-CSS浮动相关练习\CSS\CSSSlidBarTwo.css             | CSS        |         12 |          0 |          2 |         14 |
+| h:\前端工程\前端练习(CSS)-CSS浮动相关练习\SlidBarThree.html                 | HTML       |         20 |          0 |          6 |         26 |
+| h:\前端工程\前端练习(CSS)-CSS浮动相关练习\SlidBarTwo.html                   | HTML       |         18 |          0 |          6 |         24 |
+| h:\前端工程\前端练习(CSS)-CSS浮动相关练习\index.html                        | HTML       |         33 |          0 |          7 |         40 |
+| h:\前端工程\前端练习(CSS)-Google搜索框\CSS\GoogleCSS.css                 | CSS        |         75 |          0 |         10 |         85 |
+| h:\前端工程\前端练习(CSS)-Google搜索框\CSS\ImageCSS.css                  | CSS        |          4 |          0 |          1 |          5 |
+| h:\前端工程\前端练习(CSS)-Google搜索框\Images\google_logo.svg            | XML        |          1 |          0 |          0 |          1 |
+| h:\前端工程\前端练习(CSS)-Google搜索框\index.html                        | HTML       |         27 |          0 |          2 |         29 |
+| h:\前端工程\前端练习(CSS)-Grid布局\CSS\IndexCSS.css                     | CSS        |         37 |          0 |          4 |         41 |
+| h:\前端工程\前端练习(CSS)-Grid布局\Center1.html                         | HTML       |         27 |          0 |          0 |         27 |
+| h:\前端工程\前端练习(CSS)-Grid布局\Center2.html                         | HTML       |         27 |          0 |          0 |         27 |
+| h:\前端工程\前端练习(CSS)-Grid布局\Center3.html                         | HTML       |         26 |          0 |          0 |         26 |
+| h:\前端工程\前端练习(CSS)-Grid布局\Center4.html                         | HTML       |         27 |          0 |          0 |         27 |
+| h:\前端工程\前端练习(CSS)-Grid布局\Center5.html                         | HTML       |         26 |          0 |          0 |         26 |
+| h:\前端工程\前端练习(CSS)-Grid布局\Center6.html                         | HTML       |         28 |          0 |          0 |         28 |
+| h:\前端工程\前端练习(CSS)-Grid布局\Center7.html                         | HTML       |         30 |          0 |          0 |         30 |
+| h:\前端工程\前端练习(CSS)-Grid布局\Center8.html                         | HTML       |         29 |          0 |          0 |         29 |
+| h:\前端工程\前端练习(CSS)-Grid布局\Center9.html                         | HTML       |         33 |          0 |          0 |         33 |
+| h:\前端工程\前端练习(CSS)-Grid布局\GridCase.html                        | HTML       |         45 |          0 |          0 |         45 |
+| h:\前端工程\前端练习(CSS)-Grid布局\GridNuggets.html                     | HTML       |         36 |          0 |          0 |         36 |
+| h:\前端工程\前端练习(CSS)-Grid布局\Index.html                           | HTML       |         75 |          0 |          5 |         80 |
+| h:\前端工程\前端练习(CSS)-flex布局\CSS\IndexCSS.css                     | CSS        |         37 |          0 |          4 |         41 |
+| h:\前端工程\前端练习(CSS)-flex布局\ThreeBar.html                        | HTML       |         67 |          0 |          2 |         69 |
+| h:\前端工程\前端练习(CSS)-flex布局\ThreeBar2.html                       | HTML       |         56 |          0 |          2 |         58 |
+| h:\前端工程\前端练习(CSS)-flex布局\Trisection.html                      | HTML       |         31 |          0 |          3 |         34 |
+| h:\前端工程\前端练习(CSS)-flex布局\TwoBar.html                          | HTML       |         49 |          0 |          5 |         54 |
+| h:\前端工程\前端练习(CSS)-flex布局\VerticalCenter.html                  | HTML       |         29 |          0 |          2 |         31 |
+| h:\前端工程\前端练习(CSS)-flex布局\index.html                           | HTML       |         47 |          0 |          3 |         50 |
+| h:\前端工程\前端练习(CSS)-层叠上下文\BFC.html                              | HTML       |         11 |          0 |          1 |         12 |
+| h:\前端工程\前端练习(CSS)-层叠上下文\CSS\IndexCSS.css                      | CSS        |         37 |          0 |          4 |         41 |
+| h:\前端工程\前端练习(CSS)-层叠上下文\CSS\StackContextCSS1.css              | CSS        |         28 |          0 |          0 |         28 |
+| h:\前端工程\前端练习(CSS)-层叠上下文\StackContext1.html                    | HTML       |         24 |          0 |          0 |         24 |
+| h:\前端工程\前端练习(CSS)-层叠上下文\StackContext2.html                    | HTML       |         12 |          0 |          1 |         13 |
+| h:\前端工程\前端练习(CSS)-层叠上下文\StackContext3.html                    | HTML       |         11 |          0 |          1 |         12 |
+| h:\前端工程\前端练习(CSS)-层叠上下文\StackContext4.html                    | HTML       |         11 |          0 |          1 |         12 |
+| h:\前端工程\前端练习(CSS)-层叠上下文\StackContext5.html                    | HTML       |         57 |          0 |          2 |         59 |
+| h:\前端工程\前端练习(CSS)-层叠上下文\index.html                            | HTML       |         47 |          0 |          6 |         53 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\BlockAndInlineCase.html       | HTML       |         16 |          0 |          0 |         16 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\BlockCase.html                | HTML       |         15 |          0 |          0 |         15 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\CSS\BlockAndInlineCaseCSS.css | CSS        |          6 |          0 |          0 |          6 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\CSS\BlockCase.css             | CSS        |         15 |          0 |          0 |         15 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\CSS\DisplayCaseCSS.css        | CSS        |          0 |          0 |          1 |          1 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\CSS\IndexCSS.css              | CSS        |         37 |          0 |          4 |         41 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\CSS\InlineBlockCase.css       | CSS        |         13 |          0 |          0 |         13 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\CSS\MarginCase.css            | CSS        |         12 |          0 |          0 |         12 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\CSS\NavBarCase.css            | CSS        |         22 |          0 |          2 |         24 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\DisplayCase.html              | HTML       |         11 |          0 |          1 |         12 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\Index.html                    | HTML       |         51 |          0 |          5 |         56 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\InlineBlockCase.html          | HTML       |         17 |          0 |          0 |         17 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\MarginCase.html               | HTML       |         15 |          0 |          0 |         15 |
+| h:\前端工程\前端练习(CSS)-盒模型，块模型,外边距合并\NavBarCase.html               | HTML       |         17 |          0 |          0 |         17 |
+| h:\前端工程\前端练习(Html)-CSS选择器\CSS\index.css                       | CSS        |         57 |          0 |          6 |         63 |
+| h:\前端工程\前端练习(Html)-CSS选择器\index.html                          | HTML       |         59 |          0 |          4 |         63 |
+| h:\前端工程\前端练习(Html)-input标签与表单练习\CSS\input.css                 | CSS        |          0 |          0 |          1 |          1 |
+| h:\前端工程\前端练习(Html)-input标签与表单练习\index.html                    | HTML       |         52 |          2 |          6 |         60 |
+| h:\前端工程\前端练习(Html)-input标签与表单练习\index2.html                   | HTML       |         37 |          0 |          6 |         43 |
+| h:\前端工程\前端练习(Html)-input标签与表单练习\register.html                 | HTML       |         11 |          0 |          1 |         12 |
+| h:\前端工程\前端练习(Html)-简单书库系统\CSS\book.css                        | CSS        |         33 |          0 |          2 |         35 |
+| h:\前端工程\前端练习(Html)-简单书库系统\CSS\stackRoom.css                   | CSS        |         74 |          0 |          7 |         81 |
+| h:\前端工程\前端练习(Html)-简单书库系统\book.html                           | HTML       |         22 |          0 |          0 |         22 |
+| h:\前端工程\前端练习(Html)-简单书库系统\index.html                          | HTML       |         86 |          0 |          6 |         92 |
+| h:\前端工程\前端练习(小功能)-抽奖系统\CSS\RollCSS.css                        | CSS        |          0 |          0 |          1 |          1 |
+| h:\前端工程\前端练习(小功能)-抽奖系统\index.html                             | HTML       |         20 |          0 |          2 |         22 |
+| h:\前端工程\前端练习基础(CSS)-Grid实现两栏布局\CSS\index.css                  | CSS        |         28 |          0 |          0 |         28 |
+| h:\前端工程\前端练习基础(CSS)-Grid实现两栏布局\index.html                     | HTML       |         26 |          0 |          0 |         26 |
+| Total                                                         |            |     53,932 |      4,282 |     24,517 |     82,731 |
++---------------------------------------------------------------+------------+------------+------------+------------+------------+
