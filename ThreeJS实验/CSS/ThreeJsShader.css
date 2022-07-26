@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid: 10% 90%/1fr;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(175, 160, 160);
+    display: grid;
+    align-items: center;
+    grid: auto / auto auto auto;
+}
+.property1{
+    grid-area: 1/1/1/1;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+nav .matColor{
+  width: 125px;
+  height: 80%; 
+}
+nav label:nth-child(1){
+  margin-right: 15px;
+
+}
+main{
+    height: 90vh;
+    
+    background-color: cadetblue;
+}
+main canvas{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}

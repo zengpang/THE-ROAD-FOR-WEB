@@ -1,0 +1,36 @@
+body{
+   margin: 0px;
+}
+nav{
+    background-color: black;
+    display: grid;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    align-items: center;
+    justify-items: center;
+    
+}
+main{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid: auto auto auto auto auto/ auto;
+}
+main input{
+    width: 145px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+main button{
+    border-radius: 4px;
+    border: none;
+    font-size: 11px;
+    height: 25px;
+    width: 145px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
