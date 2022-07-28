@@ -71,7 +71,7 @@ function initRender() {
 var camera;
 function initCamera() {
     camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 1000);
-    camera.position.set(0, 5, 10);
+    camera.position.set(0, 2, 4);
     camera.lookAt(new THREE.Vector3(0, 0, 0));
 }
 
