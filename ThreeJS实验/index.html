@@ -4,48 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three3D实验</title>
+    <title>ThreeJS Shader效果测试</title>
+    <link rel="stylesheet" href="CSS/ThreeJsShader.css" type="text/css">
+    
 </head>
-
-<body>
+<body onload="draw();">
     <script src="ThreeJSLib/three.js"></script>
     <script src="ThreeJSLib/STLLoader.js"></script>
     <script src="ThreeJSLib/OrbitControls.js"></script>
     <script src="ThreeJSLib/SceneUtils.js"></script>
-    <script>
-        
-        var scene = new THREE.Scene();
-        var camera = new THREE.PerspectiveCamera(
-            50, 
-            window.innerWidth / window.innerHeight, 
-            0.1, 
-            1000 
-        );
-        camera.position.set(5, 10, 10);
-        var renderer = new THREE.WebGLRenderer();
-        renderer.setSize(window.innerWidth, window.innerHeight);
-        document.body.appendChild(renderer.domElement);
-        var geometry = new THREE.BoxGeometry(4, 4, 4);
-        var materialBasic = new THREE.MeshBasicMaterial({
-            color: 0xffffff, 
-            wireframe: true 
-        });
-        var materialNormal = new THREE.MeshNormalMaterial();
-        var cube = THREE.SceneUtils.createMultiMaterialObject(geometry, [
-            materialBasic,
-            materialNormal
-        ]);
-        camera.lookAt(cube.position);
-        scene.add(cube);
-        renderer.render(scene, camera);
-        var spotLight = new THREE.SpotLight(0xffffff);
-        spotLight.position.set(0, 20, 20);
-        spotLight.intensity = 5;
-        scene.add(spotLight);
-        var axes = new THREE.AxisHelper(6);
-        scene.add(axes);
-        renderer.render(scene, camera);
-    </script>
+     <nav>
+        <div class="property proIndex1">
+            <label for="mainMatColor" >主材质颜色</label>
+            <input type="color" name="" id="mainMatColor" class="propColor matColor" value="#EC4141">         
+        </div>
+        <div class="property proIndex2">
+            <label for="mainfresnelColor">菲涅尔颜色</label>
+            <input type="color" name="" id="mainfresnelColor" class="propColor fresnelColor" value="#1AB8E0">    
+        </div>
+        <div class="property proIndex3">
+            <label for="mainfresnelPow">菲涅尔次幂</label>
+            <input type="range" name="" id="mainfresnelPow" class="propColor fresnelPow" oninput="matValueChange(event)" value="12" max="100">    
+        </div>
+        <div class="property proIndex4">
+            <label for="mainfresnelPower">菲涅尔强度</label>
+            <input type="range" name="" id="mainfresnelPower" class="propColor fresnelPower" oninput="matValueChange(event)" value="10" max="255">    
+        </div>
+    </nav>
+    <main class="mainShow">
+        <script src="JS/ThreeTestShader.js"></script>     
+    </main>
 
+  
 </body>
 </html>
