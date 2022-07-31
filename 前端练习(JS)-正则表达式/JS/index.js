@@ -101,11 +101,43 @@
 // let test4=`<div>这就是 div</div>`.replace(/(<\/?)div(>)/g,'$1span$2');
 // console.log(test4);
 
-let test5=/(if)?Test/g.test('Test');
-console.log(test5);//输出为true
+//前瞻
+// console.log(/hello(?=Jirengu)/.test('helloJirengu'));//结果为true
+// console.log(/hello(?=Jirengu)/.test('helloWorld'));//结果为false
+// console.log(/hello(?!Jirengu)/.test('helloWorld'));//结果为true
 
-let test6=/(if+)?Test/g.test('Test');
-console.log(test6);//输出为true
+//exec和replace
+let reg=/\b\w+\b/g,temp;
+while(temp=reg.exec('hello world,hi jirengu')){
+    console.log(`${temp.index}:${temp[0]}`);
+}
+/*结果为
+0:hello
+6:world
+12:hi
+15:jirengu
+*/
+
+//repalce
+let str='boder-top-color';
+console.log(str.replace(/-(\w)/g,'a'));//结果为boderaopaolor
+console.log(str.replace(/-(\w)/g,'$1'));//结果为bodertopcolor
+console.log(str.replace(/-(\w)/g,function(){
+    return '+';
+}));//结果为boder+op+olor
+console.log(str.replace(/-(\w)/g,function(match,$1){
+    return $1.toUpperCase();
+}));//结果为boderTopColor
+console.log(str.replace(/-(\w)/g,function(match,$1){
+    return '_'+$1.toUpperCase();
+}));//结果为boder_Top_Color
+
+
+//？的本质
+// let test5=/(if)?Test/g.test('Test');
+// console.log(test5);//输出为true
+// let test6=/(if+)?Test/g.test('Test');
+// console.log(test6);//输出为true
 //匹配用户名
 function validUsername(rawInput)
 {
