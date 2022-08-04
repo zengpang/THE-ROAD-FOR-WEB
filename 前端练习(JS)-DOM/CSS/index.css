@@ -1,0 +1,22 @@
+.box{
+    width: 800px;
+    height: 100px;
+    
+    border: 1px solid black;
+    background-color: aqua;
+}
+.ThreeBox div{
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+.active{
+    background-color: beige;
+}
+.changeColor{
+    width: 200px;
+    height: 200px;
+    background-color: #ff7f50;
+}
+.bigText{
+    font-size: 25px;
+}
