@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阻止默认事件</title>
+</head>
+
+<body>
+    <a href="http://js.jirengu.com/safag/">站内链接:js.jirengu.com/safag/</a>
+    <a href="https://baidu.com">站外链接:baidu.com</a>
+</body>
+<script>
+    let $$a = document.querySelectorAll(`a`);
+    $$a.forEach($a => {
+        $a.addEventListener(`click`, function (event) {
+            let href = this.getAttribute(`href`);
+            if (href.includes(location.host)) {
+                location.href = href;
+            }
+            else {
+                event.preventDefault();
+            }
+        })
+    })
+
+</script>
+
+</html>

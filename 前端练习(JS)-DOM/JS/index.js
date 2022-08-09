@@ -78,12 +78,9 @@ function nodeOperation()
     $node.classList.add(`active`);
     $node.classList.contains(`active`);
     $node.classList.toggle(`active`);
-
     $node.setAttribute(`data-id`,`100`);
     $node.getAttribute(`data-id`);
-    $node.removeAttribute(`data-id`);
-
-   
+    $node.removeAttribute(`data-id`);  
 }
 
 //作业10

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>事件三种绑定方法</title>
+</head>
+<body>
+    <!--方法1,在html里绑定，尽量不用-->
+    <button onclick="sayHello()">点我</button>
+    <button class="btn">点我</button>
+    <button class="btn1">点我</button>
+    <script>
+        const $=$=>document.querySelector($);
+        const $$=$$=>document.querySelectorAll($$);
+        function sayHello(){
+              alert(`你好`);
+        }
+        let $btn=$(`.btn`);
+        let $btn1=$(`.btn1`);
+        //方法2，给dom元素的onclick赋值
+        $btn.onclick=function(e){
+            alert(`发生点击`);
+        }
+        //方法3，调用dom的addEventListener函数
+        $btn1.addEventListener(`click`,function(e){
+           alert(`点我`);
+        },true)
+
+
+    </script>
+</body>
+</html>

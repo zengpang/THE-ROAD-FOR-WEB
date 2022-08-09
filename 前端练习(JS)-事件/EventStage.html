@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>事件阶段</title>
+    <style>
+        div{
+          border: 1px solid;
+          margin: 10px;
+        }
+     </style>
+</head>
+<body>
+    <div class="parent"> container
+        <div class="child"> box
+            <div class="target">target</div>
+        </div>
+    </div>
+    <script>
+        const $=s=>document.querySelector(s)
+        $(`.parent`).addEventListener(`click`,function(e){
+            console.log(`在捕获阶段,parent开始处理`);
+        },true)
+        $(`.child`).addEventListener(`click`,function(e){
+            console.log(`在捕获阶段,child开始处理`);
+        },true)
+        $(`.target`).addEventListener(`click`,function(e){
+            console.log(`在捕获阶段,target开始处理`);
+        },true)
+        $(`.parent`).addEventListener(`click`,function(e){
+            console.log(`在冒泡阶段,parent开始处理`);
+        },false)
+        $(`.child`).addEventListener(`click`,function(e){
+            console.log(`在冒泡阶段,child开始处理`);
+        },false)
+        $(`.target`).addEventListener(`click`,function(e){
+            console.log(`在冒泡阶段,target开始处理`);
+        },false)
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="box">
+        <span>box1</span>
+    </div>
+    <div class="box">
+        <span>box2</span>
+    </div>
+    <div class="box">
+        <span>box3</span>
+    </div>
+</div>
+<button id="add">add</button>
+<p id="log"></p>
+<script>
+    let $container=document.querySelector(`.container`);
+    let $$boxs=document.querySelectorAll(`.box`);
+    let $add =document.querySelector(`#add`);
+    let $log=document.querySelector(`#log`);
+
+    const createBox=text=>{
+        let $box=document.createElement(`div`);
+        $box.classList.add(`box`);
+        let $span=document.createElement(`span`);
+        $span.innerText=text;
+        $box.appendChild($span);
+        $container.appendChild($box);
+        return $box;
+    }
+
+    let i=4;
+    $add.onclick=function(){
+        let $box=createBox(`box`+i++);
+    }
+
+    $container.onclick=function(e)
+    {
+        console.log(e);
+        let $box=e.path.find(el=>el.classList&&el.classList.contains(`box`));
+        if($box){
+            $log.innerText=$box.innerText;
+        }
+    }
+</script>
