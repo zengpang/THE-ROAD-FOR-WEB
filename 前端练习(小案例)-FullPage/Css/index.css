@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+.page{
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.fullBtn{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 50%;
+}
+.page:nth-of-type(1)
+{
+    background-color: aqua;
+}
+.page:nth-of-type(2)
+{
+    background-color: rgb(137, 242, 24);
+}
+.page:nth-of-type(3)
+{
+    background-color: rgb(118, 24, 242);
+}
+.page:nth-of-type(4)
+{
+    background-color: rgb(242, 24, 46);
+}
+.page:nth-of-type(5)
+{
+    background-color: rgb(255, 13, 235);
+}
