@@ -15,7 +15,20 @@
     <script>
         let $form=document.querySelector(`form`);
         let $username=document.querySelector(`#username`);
-        
+        let $error=document.querySelector(`.error`);
+        const validUsername=str=>/^\w{6,15}$/g.test(str)
+        $form.addEventListener(`submit`,function(e){
+            e.preventDefault();
+            if(validUsername($username.value)){
+                this.submit();
+                alert(`密码符合规则`);
+            }
+            else
+            {
+                $error.innerText=`密码不符合规则`;
+                alert(`密码不符合规则`);
+            }
+        })
     </script>
 </body>
 </html>
