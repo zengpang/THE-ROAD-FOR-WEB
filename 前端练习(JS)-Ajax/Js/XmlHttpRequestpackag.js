@@ -12,6 +12,7 @@ const request=(url,params,onsuccess,onerror)=>{
         }
     }
     xhr.onerror=onerror;
+    console.log(url);
     xhr.send();
 }
 request('http://rap2api.taobao.org/app/mock/244238/weathe',{city:`杭州`},data=>{
